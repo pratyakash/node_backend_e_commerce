@@ -5,8 +5,8 @@
 # Dump of SQL is provided. Please restore that
 
 To Run:- 
-    1. npm install
-    2. npm run start-dev
+    * npm install
+    * npm run start-dev
 
 # Restaurant
     * Add Restaurant
