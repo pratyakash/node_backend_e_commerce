@@ -4,9 +4,6 @@
 
 # Dump of SQL is provided. Please restore that
 
-# Things to do in future:- 
-    * Multiple Delete
-
 To Run:- 
     1. npm install
     2. npm run start-dev
