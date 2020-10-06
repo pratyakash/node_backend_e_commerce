@@ -14,6 +14,7 @@ To Run:-
 # Restaurant
     * Add Restaurant
         link:- /restaurant/save_restaurants
+        method:- POST
         body:- {
                     "restaurant": 
                         {
@@ -30,15 +31,19 @@ To Run:-
 
     * Get All Restro
         link:- /restaurant/get_all_restaurant
+        method:- GET
 
     * Get Restro By Id
         link:- /restaurant/get_restaurant_by_id?id=7
+        method:- GET
 
     * Delete Restro
         link:- /restaurant/delete_restaurants?id=
+        method:- DELETE
     
     * Update Restro
         link:- /restaurant/update_restaurant
+        method:- PUT
         body:- {
                     "restaurant": {
                             "id": 7,
@@ -56,6 +61,7 @@ To Run:-
 # Product
     * Add product
         link:- /product/save_product
+        method:- POST
         body:- {
                     "product": 
                         {
@@ -74,12 +80,15 @@ To Run:-
 
     * Get All Product By Restro Id
         link:- /product/get_all_product_by_restarant_id?id=2
+        method:- GET
 
     * Delete Product
         link:- /product/delete_product?id=
+        method:- DELETE
     
     * Update Product
         link:- /product/update_product
+        method:- PUT
         body:- {
                     "product": 
                         {
@@ -101,6 +110,7 @@ To Run:-
 # Product Category
     * Add product
         link:- /product_category/save_product
+        method:- POST
         body:- {
                     "category": 
                         {
@@ -110,9 +120,11 @@ To Run:-
 
     * Get All Product Category
         link:- /product_category/get_all_product_category
+        method:- GET
 
     * Update Product
         link:- /product_category/update_product_category
+        method:- PUT
         body:- {
                     "product": 
                         {
